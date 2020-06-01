@@ -1,0 +1,28 @@
+package Builder;
+
+public class AProductBuilder extends ProductBuilder{
+
+	@Override
+	public void buildId(Long id) {
+		product.setId(id);		
+	}
+
+	@Override
+	public void buildDescription(String description) {
+		product.setDescription(description);
+		
+	}
+
+	@Override
+	public void buildPrice(Long price) {
+		product.setPrice(price);
+		
+	}
+
+	@Override
+	public void builType() {
+		product.setType("A TYPE");
+		
+	}
+
+}

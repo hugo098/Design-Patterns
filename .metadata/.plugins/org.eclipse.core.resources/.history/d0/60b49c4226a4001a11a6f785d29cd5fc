@@ -1,0 +1,27 @@
+package Builder;
+
+import java.util.ArrayList;
+
+public class BuilderTest {
+
+	public static void main(String[] args) {
+		
+		ProductDirector director [2]= new ArrayList<ProductDirector>();
+		
+		
+		ProductBuilder AProduct = new AProductBuilder();
+		
+		ProductBuilder BProduct = new BProductBuilder();
+		
+		director.setProductBuilder(AProduct);
+		
+		director.buildProduct(1L, "PRODUCTO A1", 500000L);
+		
+		
+		Product product = director.getProduct();
+		
+		System.out.println(product.information());
+
+	}
+
+}

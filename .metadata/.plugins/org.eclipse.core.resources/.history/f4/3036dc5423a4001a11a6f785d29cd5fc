@@ -1,0 +1,11 @@
+package Builder;
+
+public class AProductBuilder extends ProductBuilder{
+
+	@Override
+	public void builType() {
+		product.setType("A TYPE");
+		
+	}
+
+}

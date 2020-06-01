@@ -1,0 +1,17 @@
+package Builder;
+
+public abstract class ProductBuilder {
+	protected Product product;
+	 
+    public Product getProduct() { 
+    	return product; 
+    }
+    
+	public abstract void buildId(Long id);
+	public abstract void buildDescription(Long description);
+	public abstract void buildPrice(Long price);
+	public abstract void builType();
+	
+	
+	
+}
