@@ -2,4 +2,3 @@ INDEX VERSION 1.131+C:\Users\Usuario\Desktop\DesignPatterns\.metadata\.plugins\o
 656000724.index
 3814551627.index
 3188758382.index
-3373770744.index
